@@ -1,0 +1,24 @@
+
+/*function slasher(arr, howMany) {
+  // it doesn't always pay to be first
+  var myArray = [];
+  for(var i = 0; i < arr.length; i = i + howMany){
+    var a = arr.splice(i, i + howMany);
+    myArray.push(a);
+  }
+  return arr;
+}
+
+slasher([1, 2, 3], 2);*/
+
+function slasher(arr, howMany) {
+  // it doesn't always pay to be first
+  var myArray = [];
+  
+  if(true){
+    var a = arr.splice (0,howMany);
+  }
+  return arr;
+}
+
+slasher([1, 2, "chicken", 3, "potatoes", "cheese", 4], 5);
